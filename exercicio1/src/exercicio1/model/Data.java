@@ -1,5 +1,7 @@
 package exercicio1.model;
 
+import javax.swing.JOptionPane;
+
 public class Data {
 
     private Integer dia;
@@ -46,7 +48,7 @@ public class Data {
     }
 
     public void imprime() {
-        System.out.println(toString());
+        JOptionPane.showInputDialog(this.toString());
     }
 
 }
